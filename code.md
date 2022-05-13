@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: page
 title: Code Highlighting and Styling
-tags: tutorial open-source
 ---
 
 Code highlighting and styling is based on [highlight.js](https://highlightjs.org/) and TailwindCSS customization.
