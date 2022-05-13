@@ -20,10 +20,8 @@ show-nav-menu: true
 nav-menu:
 - text: About
   permalink: about
-- text: Bitcoin
-  permalink: bitcoin
-- text: Blog
-  permalink: blog
+- text: Code
+  permalink: code
 
 # use false to turn off any social media links
 twitter: false
