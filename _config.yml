@@ -11,7 +11,7 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Sally Heinzel
-author-bio: Of the   # change to false to hide
+author-bio: House of the Rising Henzel   # change to false to hide
 author-image: 279.png  # file must be in the /assets/img/ folder
 
 # navigation menu
