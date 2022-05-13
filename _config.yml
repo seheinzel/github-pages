@@ -35,7 +35,7 @@ email: false
 
 # footer information
 footer-msg: "Powered by HTML, DNS, and 🐙"
-footer-msg-link: false
+# footer-msg-link: false
 
 # google analytics
 # google-analytics: G-WCRC1TC2V5
