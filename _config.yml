@@ -22,6 +22,8 @@ nav-menu:
   permalink: about
 - text: Code
   permalink: code
+- text: Writing Samples
+  permalink: writing
 
 # use false to turn off any social media links
 twitter: false
