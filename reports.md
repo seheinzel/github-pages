@@ -7,10 +7,13 @@ permalink: reports
 
 
 
-## Dashboard Reports
-### Created with Tableau
+## Created with Tableau
 
-[![](assets/png/Dashboard Accreditation.png)](assets/png/Dashboard Accreditation.png)
-[![](assets/png/Dashboard Faculty Wellness blurred.png)](assets/png/Dashboard Faculty Wellness blurred.png)
-[![](assets/png/Dashboard Resident Survey Screenshot.png)](assets/png/Dashboard Resident Survey Screenshot.png)
-[![](assets/png/GME Mission Contribution Dashboard.png)](assets/png/GME Mission Contribution Dashboard.png)
+
+[![1](assets/png/Dashboard Accreditation.png)](assets/png/Dashboard Accreditation.png)
+
+[![2](assets/png/Dashboard Faculty Wellness blurred.png)](assets/png/Dashboard Faculty Wellness blurred.png)
+
+[![3](assets/png/Dashboard Resident Survey Screenshot.png)](assets/png/Dashboard Resident Survey Screenshot.png)
+
+[![4](assets/png/GME Mission Contribution Dashboard.png)](assets/png/GME Mission Contribution Dashboard.png)
