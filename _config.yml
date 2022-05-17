@@ -24,6 +24,8 @@ nav-menu:
   permalink: code
 - text: Writing Samples
   permalink: writing
+- text: Visual Reports
+  permalink: reports
 
 # use false to turn off any social media links
 twitter: false
