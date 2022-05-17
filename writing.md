@@ -13,7 +13,7 @@ permalink: writing
 
 - [Medical Education Publication](assets/pdf/RoboticSurgeryArticle.pdf) – *Journal of the Society of Laparoendoscopic Surgeons* article
 
-<font size="4"> Wrote first draft, conducted data analysis, created graphs/tables, finalized edits</font>
+&nbsp;&nbsp;&nbsp;&nbsp;<font size="2"> Wrote first draft, conducted data analysis, created graphs/tables, finalized edits</font>
 
 
 - [Python Package Tutorial](https://medium.com/@sallyeheinzel/urllib-and-hamster-songs-e8e44534fa89) – Walkthrough on using urllib
