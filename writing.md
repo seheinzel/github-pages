@@ -9,4 +9,4 @@ permalink: writing
 
 ## Writing Samples
 
-- Example 1 [JISHS article](/assets/pdf/JISHSArticle.pdf)
+- Example 1 [JISHS article](/assets/png/JISHSArticle.pdf)
