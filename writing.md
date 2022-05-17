@@ -9,12 +9,18 @@ permalink: writing
 
 ## Writing Samples
 
-- Example 1 [JISHS article](/assets/png/JISHSArticle.pdf)
+- [Humanities Publication](/assets/png/JISHSArticle.pdf)
+
 *Journal of the Illinois State Historical Society* article
 
-- Example 2 [JSLS article](assets/pdf/RoboticSurgeryArticle.pdf)
-*Journal of the Society of Laparoendoscopic Surgeons* article
-Wrote first draft, conducted data analysis, created graphs/tables, finalized edits
 
--Example 3 [Hamster API Tutorial](https://medium.com/@sallyeheinzel/urllib-and-hamster-songs-e8e44534fa89)
--Tutorial on using urllib
+- [Medical Education Publication]](assets/pdf/RoboticSurgeryArticle.pdf)
+
+*Journal of the Society of Laparoendoscopic Surgeons* article
+
+<font size="1"> Wrote first draft, conducted data analysis, created graphs/tables, finalized edits</font>
+
+
+- [Python Package Tutorial](https://medium.com/@sallyeheinzel/urllib-and-hamster-songs-e8e44534fa89)
+
+Walkthrough on using urllib
