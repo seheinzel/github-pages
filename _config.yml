@@ -47,3 +47,5 @@ footer-msg: "Powered by HTML, DNS, and 🐙"
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
+
+theme: jekyll-theme-cayman
