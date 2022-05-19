@@ -1,13 +1,13 @@
 # change the followings to match your Github username and repo name
-baseurl: "/" # the name of your github repo
+baseurl: "" # the name of your github repo
 url: "https://seheinzel.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: "Stuff to see, amazing and tedious"
+title: "Sally Heinzel's Portfolio"
 description: Data Science?  More like Sally Science.
 
 # color theme for links
-theme-color: green # indigo|yellow|pink|green|stone|
+theme-color: pink # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Sally Heinzel
@@ -18,13 +18,16 @@ author-image: heinzel_in_goggles.jpg  # file must be in the /assets/img/ folder
 show-nav-menu: true
 
 nav-menu:
+- text: Home
 - text: About
   permalink: about
 - text: Code
   permalink: code
-- text: Writing Samples
+- text: Projects
+  permalink: projects
+- text: Writing
   permalink: writing
-- text: Visual Reports
+- text: Reports
   permalink: reports
 
 # use false to turn off any social media links
@@ -46,4 +49,5 @@ footer-msg: "Powered by HTML, DNS, and 🐙"
 
 # jekyll plugins - no need to change
 plugins:
+    - jekyll-postcss-v2
     - jekyll-seo-tag

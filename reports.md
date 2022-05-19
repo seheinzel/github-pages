@@ -9,7 +9,7 @@ permalink: reports
 
 ## Created with Tableau
 
-
+ 
 [![](assets/png/Dashboard Accreditation.png)](assets/png/Dashboard Accreditation.png)
 
 [![](assets/png/Dashboard Faculty Wellness blurred.png)](assets/png/Dashboard Faculty Wellness blurred.png)

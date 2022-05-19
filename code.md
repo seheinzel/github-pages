@@ -1,66 +1,54 @@
 ---
 layout: page
-title: Code Highlighting and Styling
+title: Code & Query
+permalink: code
 ---
 
-Code highlighting and styling is based on [highlight.js](https://highlightjs.org/) and TailwindCSS customization.
+### SQL is for ballers.  
+Are you a baller? Then this should appeal.
 
-Some examples:
-
-```
-git clone https://github.com/harrywang/tailpages.git
-cd tailpages
-```
-...
-
-To enable typography plugin, inter font, and customizations by updating `tailwid.config.js` as follows:
-
-```js
-const defaultTheme = require('tailwindcss/defaultTheme')
-
-module.exports = {
-  content: [
-    './**/*.html'
-  ],
-  darkMode: 'media',
-  theme: {
-    extend: {
-      typography: {
-        DEFAULT: {
-          css: {
-            pre: {
-              padding: "0",
-              color: "#1F2933",
-              backgroundColor: "#F3F3F3"
-            },
-            code: {
-              padding: "0.2em 0.4em",
-              backgroundColor: "#F3F3F3",
-              color: "#DD1144",
-              fontWeight: "400",
-              "border-radius": "0.25rem"
-            },
-            "code::before": false,
-            "code::after": false,
-            "blockquote p:first-of-type::before": false,
-            "blockquote p:last-of-type::after": false,
-          },
-        },
-      },
-      fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-      },
-    },
-  },
-
-  variants: {
-    extend: {},
-  },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
-
-}
+```sql
+SELECT column1, column2 
+FROM table t
+WHERE column1='value';
 ```
 
-See more examples at [here](https://harrywang.me/2022/01/18/tailpages-tutorial-technical.html)
+This query got me back some hella sweet data:
+
+| column1 | column2 |
+|---------|---------|
+| foo | bar |
+| foo | bar |
+| foo | bar |
+
+
+### Here's some rad python, with super-dope colors
+
+```python
+# Program to display the Fibonacci sequence up to n-th term
+
+nterms = int(input("How many terms? "))
+
+# first two terms
+n1, n2 = 0, 1
+count = 0
+
+# check if the number of terms is valid
+if nterms <= 0:
+   print("Please enter a positive integer")
+# if there is only one term, return n1
+elif nterms == 1:
+   print("Fibonacci sequence upto",nterms,":")
+   print(n1)
+# generate fibonacci sequence
+else:
+   print("Fibonacci sequence:")
+   while count < nterms:
+       print(n1)
+       nth = n1 + n2
+       # update values
+       n1 = n2
+       n2 = nth
+       count += 1
+```
+
