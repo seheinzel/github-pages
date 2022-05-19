@@ -51,3 +51,5 @@ footer-msg: "Powered by HTML, DNS, and 🐙"
 plugins:
     - jekyll-postcss-v2
     - jekyll-seo-tag
+
+theme: jekyll-theme-cayman
