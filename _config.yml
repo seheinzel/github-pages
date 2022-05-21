@@ -11,16 +11,16 @@ theme-color: pink # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Sally Heinzel
-author-bio: House of the Rising Henzel   # change to false to hide
-author-image: heinzel_in_goggles.jpg  # file must be in the /assets/img/ folder
+author-bio: Hi, I'm Sally. Thanks for checking out my portfolio. Above you'll find links to different types of work I've done. I'm an early career data analyst with a passion for data wrangling 🤠 in order to allow data to live its best life. I also enjoy problem solving and the endorphin hit that comes with debugging a particularly stubborn challenge. Feel free to [reach out](mailto:sallyeheinzel@gmail.com) to me if you have any questions or comments.    # change to false to hide
+author-image: profilepic.JPG  # file must be in the /assets/img/ folder
 
 # navigation menu
 show-nav-menu: true
 
 nav-menu:
 - text: Home
-- text: About
-  permalink: about
+- text: Resume
+  permalink: resume
 - text: Code
   permalink: code
 - text: Projects
