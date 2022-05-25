@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+
+  <!-- google analytics -->
+  
+
+  <!-- Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Table of Contents Support | Sally Heinzel’s Portfolio</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Table of Contents Support" />
+<meta name="author" content="Sally Heinzel" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Table of Contents support is based on jekyll-toc." />
+<meta property="og:description" content="Table of Contents support is based on jekyll-toc." />
+<link rel="canonical" href="https://seheinzel.github.io/toc" />
+<meta property="og:url" content="https://seheinzel.github.io/toc" />
+<meta property="og:site_name" content="Sally Heinzel’s Portfolio" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-02-08T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Table of Contents Support" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Sally Heinzel"},"dateModified":"2022-02-08T00:00:00-06:00","datePublished":"2022-02-08T00:00:00-06:00","description":"Table of Contents support is based on jekyll-toc.","headline":"Table of Contents Support","mainEntityOfPage":{"@type":"WebPage","@id":"https://seheinzel.github.io/toc"},"url":"https://seheinzel.github.io/toc"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Sally Heinzel's Portfolio</title>
+
+  <!-- TailwindCSS and Inter Font-->
+  <link rel="stylesheet" href="/assets/css/tailwind.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  
+    <!-- highlight.js -->
+   <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark-dimmed.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  
+  <!-- MathJax -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+    };
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+ </head>
+
+<body class="font-sans">
+  <div class="pt-12 pb-4 mx-auto prose md:prose-xl lg:prose-2xl prose-pink">
+      
+  <nav class="flex flex-wrap items-center justify-center px-2 mb-6">
+    <div class="container px-4 mx-auto flex flex-wrap items-center md:justify-center">
+        <div class="w-full relative flex justify-left">
+            <button type="button" onclick="toggleNavbar('navbar')"
+                class="rounded-md inline-flex items-center justify-center text-gray-500 md:hidden"
+                aria-expanded="false">
+                <span class="sr-only">Open menu</span>
+                <!-- Heroicon name: outline/menu -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="flex hidden md:block md:border-2 md:rounded-full shadow-lg px-3" id="navbar">
+            <div class="flex flex-col md:flex-row mr-auto w-full prose-pink">
+
+                <!-- dynamic menu based on navigation info in _config.yml -->
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/">
+                        Home
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/resume">
+                        Resume
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/code">
+                        Code
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/projects">
+                        Projects
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/writing">
+                        Writing
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/reports">
+                        Reports
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="px-4 pt-4 prose prose-pink">
+  <h1 class="text-center mt-6 mb-6" id="title">Table of Contents Support</h1>
+  <div class="text-center">
+    
+      <i class="text-xs fas fa-tags"></i>
+    
+      <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+        <a class="!no-underline" href="/tag#tutorial">tutorial</a>
+      </div>
+    
+      <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+        <a class="!no-underline" href="/tag#open-source">open-source</a>
+      </div>
+    
+    
+  </div>
+<div class="flex justify-center">
+  <button onclick="toggleTOC()" class="mt-6 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white p-4 py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+    Table of Contents
+  </button>
+</div>
+  <div id="toc" style="display:none;" >
+  <ul><li><a href="#python-basics">Python Basics</a></li><li><a href="#flow-control">Flow Control</a></li><li><a href="#lists">Lists</a></li></ul>
+</div>
+  <p>Table of Contents support is based on <a href="https://github.com/allejo/jekyll-toc">jekyll-toc</a>.</p>
+
+<p>If you use the <code class="language-plaintext highlighter-rouge">post-toc</code> layout, a table of contents will be automatically generated based on all <code class="language-plaintext highlighter-rouge">##</code> headings - this is defined by <code class="language-plaintext highlighter-rouge">h_max=2</code> in <code class="language-plaintext highlighter-rouge">_layouts/post-toc.html</code> file, which you can change to fit your need.</p>
+
+<p>The following is an example:</p>
+
+<h2 id="python-basics">Python Basics</h2>
+
+<h3 id="math-operators">Math Operators</h3>
+
+<p>From <strong>Highest</strong> to <strong>Lowest</strong> precedence:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operators</th>
+      <th>Operation</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>**</td>
+      <td>Exponent</td>
+      <td><code class="language-plaintext highlighter-rouge">2 ** 3 = 8</code></td>
+    </tr>
+    <tr>
+      <td>%</td>
+      <td>Modulus/Remainder</td>
+      <td><code class="language-plaintext highlighter-rouge">22 % 8 = 6</code></td>
+    </tr>
+    <tr>
+      <td>//</td>
+      <td>Integer division</td>
+      <td><code class="language-plaintext highlighter-rouge">22 // 8 = 2</code></td>
+    </tr>
+    <tr>
+      <td>/</td>
+      <td>Division</td>
+      <td><code class="language-plaintext highlighter-rouge">22 / 8 = 2.75</code></td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td>Multiplication</td>
+      <td><code class="language-plaintext highlighter-rouge">3 * 3 = 9</code></td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Subtraction</td>
+      <td><code class="language-plaintext highlighter-rouge">5 - 2 = 3</code></td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Addition</td>
+      <td><code class="language-plaintext highlighter-rouge">2 + 2 = 4</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="#title"><em>Return to the Top</em></a></p>
+
+<h2 id="flow-control">Flow Control</h2>
+
+<h3 id="comparison-operators">Comparison Operators</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operator</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">==</code></td>
+      <td>Equal to</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">!=</code></td>
+      <td>Not equal to</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;</code></td>
+      <td>Less than</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&gt;</code></td>
+      <td>Greater Than</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;=</code></td>
+      <td>Less than or Equal to</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&gt;=</code></td>
+      <td>Greater than or Equal to</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="#title"><em>Return to the Top</em></a></p>
+
+<h2 id="lists">Lists</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">spam</span> <span class="o">=</span> <span class="p">[</span><span class="s">'cat'</span><span class="p">,</span> <span class="s">'bat'</span><span class="p">,</span> <span class="s">'rat'</span><span class="p">,</span> <span class="s">'elephant'</span><span class="p">]</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">spam</span>
+<span class="p">[</span><span class="s">'cat'</span><span class="p">,</span> <span class="s">'bat'</span><span class="p">,</span> <span class="s">'rat'</span><span class="p">,</span> <span class="s">'elephant'</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p><a href="#title"><em>Return to the Top</em></a></p>
+
+</div>
+
+
+<footer class="relative px-4 pt-4 pb-4">
+  
+  <!-- divider -->
+  <div class="relative my-8">
+    <div class="absolute inset-0 flex items-center" aria-hidden="true">
+      <div class="w-full border-t border-gray-200"></div>
+    </div>
+    <div class="relative flex justify-center ">
+      <span class="bg-white px-2 text-gray-200">
+        <i class="text-xs far fa-square"></i>
+      </span>
+    </div>
+  </div>
+
+  <!-- footer msg -->
+  <div class="flex flex-wrap items-center justify-center">
+    <div class="text-sm text-gray-300">
+      © <span id="get-current-year"></span>
+      
+      <a href="" class="!no-underline">
+        Powered by HTML, DNS, and 🐙
+      </a>
+      
+    </div>
+  </div>
+  </div>
+</footer>    
+  </div>
+</body>
+
+<script>
+  /* Function for getting the current year in the footer */
+  (function () {
+    if (document.getElementById("get-current-year")) {
+      document.getElementById(
+        "get-current-year"
+      ).innerHTML = new Date().getFullYear();
+    }
+  })();
+
+  /* Function for opening navbar on mobile */
+  function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+    /* Function for dropdowns */
+    function openDropdown(event, dropdownID) {
+      let element = event.target;
+      while (element.nodeName !== "A") {
+        element = element.parentNode;
+      }
+      document.getElementById(dropdownID).classList.toggle("hidden");
+      document.getElementById(dropdownID).classList.toggle("block");
+    }
+
+  /* Function for show/hide table of content */
+  function toggleTOC() {
+    var toc = document.getElementById('toc');
+        if (toc.style.display == "block"){ // if toc hidden, display it 
+            toc.style.display = "none";
+        }
+        else{ // if toc displayed, hidden it
+            toc.style.display = "block";
+        }
+    }
+</script>
+
+</html>

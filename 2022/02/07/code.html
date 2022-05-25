@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+
+  <!-- google analytics -->
+  
+
+  <!-- Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Code Highlighting and Styling | Sally Heinzel’s Portfolio</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Code Highlighting and Styling" />
+<meta name="author" content="Sally Heinzel" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Code highlighting and styling is based on highlight.js and TailwindCSS customization." />
+<meta property="og:description" content="Code highlighting and styling is based on highlight.js and TailwindCSS customization." />
+<link rel="canonical" href="https://seheinzel.github.io/2022/02/07/code.html" />
+<meta property="og:url" content="https://seheinzel.github.io/2022/02/07/code.html" />
+<meta property="og:site_name" content="Sally Heinzel’s Portfolio" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-02-07T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Code Highlighting and Styling" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Sally Heinzel"},"dateModified":"2022-02-07T00:00:00-06:00","datePublished":"2022-02-07T00:00:00-06:00","description":"Code highlighting and styling is based on highlight.js and TailwindCSS customization.","headline":"Code Highlighting and Styling","mainEntityOfPage":{"@type":"WebPage","@id":"https://seheinzel.github.io/2022/02/07/code.html"},"url":"https://seheinzel.github.io/2022/02/07/code.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Sally Heinzel's Portfolio</title>
+
+  <!-- TailwindCSS and Inter Font-->
+  <link rel="stylesheet" href="/assets/css/tailwind.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  
+    <!-- highlight.js -->
+   <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark-dimmed.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  
+  <!-- MathJax -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+    };
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+ </head>
+
+<body class="font-sans">
+  <div class="pt-12 pb-4 mx-auto prose md:prose-xl lg:prose-2xl prose-pink">
+      
+  <nav class="flex flex-wrap items-center justify-center px-2 mb-6">
+    <div class="container px-4 mx-auto flex flex-wrap items-center md:justify-center">
+        <div class="w-full relative flex justify-left">
+            <button type="button" onclick="toggleNavbar('navbar')"
+                class="rounded-md inline-flex items-center justify-center text-gray-500 md:hidden"
+                aria-expanded="false">
+                <span class="sr-only">Open menu</span>
+                <!-- Heroicon name: outline/menu -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="flex hidden md:block md:border-2 md:rounded-full shadow-lg px-3" id="navbar">
+            <div class="flex flex-col md:flex-row mr-auto w-full prose-pink">
+
+                <!-- dynamic menu based on navigation info in _config.yml -->
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        font-bold bg-fuchsia-100
+                        "
+                        href="/">
+                        Home
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/resume">
+                        Resume
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/code">
+                        Code
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/projects">
+                        Projects
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/writing">
+                        Writing
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/reports">
+                        Reports
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="px-4 pt-4 prose prose-pink">
+  <h1 class="text-center mt-6 mb-6">Code Highlighting and Styling</h1>
+  <div class="text-center">
+    
+      <i class="text-xs fas fa-tags"></i>
+    
+      <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+        <a class="!no-underline" href="/tag#tutorial">tutorial</a>
+      </div>
+    
+      <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+        <a class="!no-underline" href="/tag#open-source">open-source</a>
+      </div>
+    
+    
+  </div>
+  <p>Code highlighting and styling is based on <a href="https://highlightjs.org/">highlight.js</a> and TailwindCSS customization.</p>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/harrywang/tailpages.git
+cd tailpages
+</code></pre></div></div>
+<p>…</p>
+
+<p>To enable typography plugin, inter font, and customizations by updating <code class="language-plaintext highlighter-rouge">tailwid.config.js</code> as follows:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">defaultTheme</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">tailwindcss/defaultTheme</span><span class="dl">'</span><span class="p">)</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">content</span><span class="p">:</span> <span class="p">[</span>
+    <span class="dl">'</span><span class="s1">./**/*.html</span><span class="dl">'</span>
+  <span class="p">],</span>
+  <span class="na">darkMode</span><span class="p">:</span> <span class="dl">'</span><span class="s1">media</span><span class="dl">'</span><span class="p">,</span>
+  <span class="na">theme</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">extend</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">typography</span><span class="p">:</span> <span class="p">{</span>
+        <span class="na">DEFAULT</span><span class="p">:</span> <span class="p">{</span>
+          <span class="na">css</span><span class="p">:</span> <span class="p">{</span>
+            <span class="na">pre</span><span class="p">:</span> <span class="p">{</span>
+              <span class="na">padding</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">color</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#1F2933</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">backgroundColor</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#F3F3F3</span><span class="dl">"</span>
+            <span class="p">},</span>
+            <span class="na">code</span><span class="p">:</span> <span class="p">{</span>
+              <span class="na">padding</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.2em 0.4em</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">backgroundColor</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#F3F3F3</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">color</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#DD1144</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">fontWeight</span><span class="p">:</span> <span class="dl">"</span><span class="s2">400</span><span class="dl">"</span><span class="p">,</span>
+              <span class="dl">"</span><span class="s2">border-radius</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.25rem</span><span class="dl">"</span>
+            <span class="p">},</span>
+            <span class="dl">"</span><span class="s2">code::before</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">code::after</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">blockquote p:first-of-type::before</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">blockquote p:last-of-type::after</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+          <span class="p">},</span>
+        <span class="p">},</span>
+      <span class="p">},</span>
+      <span class="na">fontFamily</span><span class="p">:</span> <span class="p">{</span>
+        <span class="na">sans</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">Inter var</span><span class="dl">'</span><span class="p">,</span> <span class="p">...</span><span class="nx">defaultTheme</span><span class="p">.</span><span class="nx">fontFamily</span><span class="p">.</span><span class="nx">sans</span><span class="p">],</span>
+      <span class="p">},</span>
+    <span class="p">},</span>
+  <span class="p">},</span>
+
+  <span class="na">variants</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">extend</span><span class="p">:</span> <span class="p">{},</span>
+  <span class="p">},</span>
+  <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
+    <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">@tailwindcss/typography</span><span class="dl">'</span><span class="p">),</span>
+  <span class="p">],</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>See more examples at <a href="https://harrywang.me/2022/01/18/tailpages-tutorial-technical.html">here</a></p>
+
+</div>
+
+<footer class="relative px-4 pt-4 pb-4">
+  
+  <!-- divider -->
+  <div class="relative my-8">
+    <div class="absolute inset-0 flex items-center" aria-hidden="true">
+      <div class="w-full border-t border-gray-200"></div>
+    </div>
+    <div class="relative flex justify-center ">
+      <span class="bg-white px-2 text-gray-200">
+        <i class="text-xs far fa-square"></i>
+      </span>
+    </div>
+  </div>
+
+  <!-- footer msg -->
+  <div class="flex flex-wrap items-center justify-center">
+    <div class="text-sm text-gray-300">
+      © <span id="get-current-year"></span>
+      
+      <a href="" class="!no-underline">
+        Powered by HTML, DNS, and 🐙
+      </a>
+      
+    </div>
+  </div>
+  </div>
+</footer>    
+  </div>
+</body>
+
+<script>
+  /* Function for getting the current year in the footer */
+  (function () {
+    if (document.getElementById("get-current-year")) {
+      document.getElementById(
+        "get-current-year"
+      ).innerHTML = new Date().getFullYear();
+    }
+  })();
+
+  /* Function for opening navbar on mobile */
+  function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+    /* Function for dropdowns */
+    function openDropdown(event, dropdownID) {
+      let element = event.target;
+      while (element.nodeName !== "A") {
+        element = element.parentNode;
+      }
+      document.getElementById(dropdownID).classList.toggle("hidden");
+      document.getElementById(dropdownID).classList.toggle("block");
+    }
+
+  /* Function for show/hide table of content */
+  function toggleTOC() {
+    var toc = document.getElementById('toc');
+        if (toc.style.display == "block"){ // if toc hidden, display it 
+            toc.style.display = "none";
+        }
+        else{ // if toc displayed, hidden it
+            toc.style.display = "block";
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+
+  <!-- google analytics -->
+  
+
+  <!-- Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Code &amp; Query | Sally Heinzel’s Portfolio</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Code &amp; Query" />
+<meta name="author" content="Sally Heinzel" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Data Science? More like Sally Science." />
+<meta property="og:description" content="Data Science? More like Sally Science." />
+<link rel="canonical" href="https://seheinzel.github.io/code" />
+<meta property="og:url" content="https://seheinzel.github.io/code" />
+<meta property="og:site_name" content="Sally Heinzel’s Portfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Code &amp; Query" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Sally Heinzel"},"description":"Data Science? More like Sally Science.","headline":"Code &amp; Query","url":"https://seheinzel.github.io/code"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Sally Heinzel's Portfolio</title>
+
+  <!-- TailwindCSS and Inter Font-->
+  <link rel="stylesheet" href="/assets/css/tailwind.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  
+    <!-- highlight.js -->
+   <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark-dimmed.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  
+  <!-- MathJax -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+    };
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+ </head>
+
+<body class="font-sans">
+  <div class="pt-12 pb-4 mx-auto prose md:prose-xl lg:prose-2xl prose-pink">
+      
+  <nav class="flex flex-wrap items-center justify-center px-2 mb-6">
+    <div class="container px-4 mx-auto flex flex-wrap items-center md:justify-center">
+        <div class="w-full relative flex justify-left">
+            <button type="button" onclick="toggleNavbar('navbar')"
+                class="rounded-md inline-flex items-center justify-center text-gray-500 md:hidden"
+                aria-expanded="false">
+                <span class="sr-only">Open menu</span>
+                <!-- Heroicon name: outline/menu -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="flex hidden md:block md:border-2 md:rounded-full shadow-lg px-3" id="navbar">
+            <div class="flex flex-col md:flex-row mr-auto w-full prose-pink">
+
+                <!-- dynamic menu based on navigation info in _config.yml -->
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/">
+                        Home
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/resume">
+                        Resume
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        font-bold bg-fuchsia-100
+                        "
+                        href="/code">
+                        Code
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/projects">
+                        Projects
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/writing">
+                        Writing
+                    </a>
+                
+                    <a class="
+                        text-base
+                        lg:text-xl
+                        no-underline 
+                        px-3 py-2 
+                        lg:py-1 
+                        mx-auto 
+                        uppercase 
+                        hover:bg-fuchsia-200 
+                        
+                        "
+                        href="/reports">
+                        Reports
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="px-4 pt-4 prose-pink">
+    <h1 class="text-center mt-6 mb-6">Code & Query</h1>
+    <h3><center>The Leaky Faucet: A SQL-Based Real World Project</center></h3>
+
+<p>A local municipality discovered that it was being charged for higher water consumption than what was indicated by the residents’ meters. After no underground leaks were detected, the water board suspected the discrepancy stemmed from problematic water usage data collection and/or reporting. I volunteered to examine the town’s water usage and billing data to see if the mystery of the missing water could be solved.</p>
+
+<p>The town’s billing system used Microsoft Access, so I used an open-source tool to convert the data to a SQLite database for performing standard analysis. I began with basic EDA.</p>
+
+<p>(Please note that some data have been altered to protect PII and results truncated for demo purposes.)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT name 
+FROM sqlite_master 
+WHERE type='table';
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Company</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Rates</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">System History</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">System Meters</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">new_customer_history</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Customer</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PRAGMA table_info(new_customer_history);
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">cid</th>
+      <th style="text-align: left">name</th>
+      <th style="text-align: left">type</th>
+      <th style="text-align: left">notnull</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">Route</td>
+      <td style="text-align: left">DOUBLE</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">Service Adr</td>
+      <td style="text-align: left">TEXT</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">Beginning Reading</td>
+      <td style="text-align: left">DOUBLE</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">Beginning Date</td>
+      <td style="text-align: left">DATETIME</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">Current Reading</td>
+      <td style="text-align: left">DOUBLE</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">Current Date</td>
+      <td style="text-align: left">DATETIME</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">Useage</td>
+      <td style="text-align: left">DOUBLE</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">7</td>
+      <td style="text-align: left">Amount</td>
+      <td style="text-align: left">DOUBLE</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">8</td>
+      <td style="text-align: left">BaseRate</td>
+      <td style="text-align: left">DOUBLE</td>
+      <td style="text-align: left">0</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT * 
+FROM new_customer_history;
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Route</th>
+      <th style="text-align: left">Service Adr</th>
+      <th style="text-align: left">Beginning Reading</th>
+      <th style="text-align: left">Beginning Date</th>
+      <th style="text-align: left">Current Reading</th>
+      <th style="text-align: left">Current Date</th>
+      <th style="text-align: left">Useage</th>
+      <th style="text-align: left">Amount</th>
+      <th style="text-align: left">BaseRate</th>
+      <th style="text-align: left">Other1</th>
+      <th style="text-align: left">Other1 Amount</th>
+      <th style="text-align: left">Other 2</th>
+      <th style="text-align: left">Other 2 Amount</th>
+      <th style="text-align: left">Other 3</th>
+      <th style="text-align: left">Other 3 Amount</th>
+      <th style="text-align: left">Taxable Amount</th>
+      <th style="text-align: left">Local Tax</th>
+      <th style="text-align: left">County Tax</th>
+      <th style="text-align: left">State Tax</th>
+      <th style="text-align: left">Total Tax</th>
+      <th style="text-align: left">Previous Balance</th>
+      <th style="text-align: left">Late</th>
+      <th style="text-align: left">Total Amount</th>
+      <th style="text-align: left">Trans Date</th>
+      <th style="text-align: left">Trans Type</th>
+      <th style="text-align: left">Period Total</th>
+      <th style="text-align: left">Memo</th>
+      <th style="text-align: left">CustID</th>
+      <th style="text-align: left">rateSched</th>
+      <th style="text-align: left">proRate</th>
+      <th style="text-align: left">estReading</th>
+      <th style="text-align: left">Posted</th>
+      <th style="text-align: left">DueDate</th>
+      <th style="text-align: left">LogDate</th>
+      <th style="text-align: left">mtrMult</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">193.0</td>
+      <td style="text-align: left">RR Mayfield</td>
+      <td style="text-align: left">62270000.0</td>
+      <td style="text-align: left">2003-02-24 00:00:00</td>
+      <td style="text-align: left">76614000.0</td>
+      <td style="text-align: left">2003-03-25 00:00:00</td>
+      <td style="text-align: left">14344000.0</td>
+      <td style="text-align: left">81775.25</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">81775.25</td>
+      <td style="text-align: left">4088.76</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">4088.76</td>
+      <td style="text-align: left">187019.1</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">272883.11</td>
+      <td style="text-align: left">2003-03-26 00:00:00</td>
+      <td style="text-align: left">I</td>
+      <td style="text-align: left">85864.01</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">1.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">193.0</td>
+      <td style="text-align: left">RR Mayfield</td>
+      <td style="text-align: left">76614000.0</td>
+      <td style="text-align: left">2003-03-25 00:00:00</td>
+      <td style="text-align: left">148755000.0</td>
+      <td style="text-align: left">2003-07-28 00:00:00</td>
+      <td style="text-align: left">72141000.0</td>
+      <td style="text-align: left">411218.15</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">411218.15</td>
+      <td style="text-align: left">20560.91</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">20560.91</td>
+      <td style="text-align: left">272883.11</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">704662.17</td>
+      <td style="text-align: left">2003-07-28 00:00:00</td>
+      <td style="text-align: left">I</td>
+      <td style="text-align: left">431779.06</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">1.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">193.0</td>
+      <td style="text-align: left">RR Mayfield</td>
+      <td style="text-align: left">148755000.0</td>
+      <td style="text-align: left">2003-07-28 00:00:00</td>
+      <td style="text-align: left">178186975.0</td>
+      <td style="text-align: left">2003-08-25 00:00:00</td>
+      <td style="text-align: left">29431975.0</td>
+      <td style="text-align: left">167776.71</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">167776.71</td>
+      <td style="text-align: left">8388.84</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">8388.84</td>
+      <td style="text-align: left">704662.17</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">880827.72</td>
+      <td style="text-align: left">2003-08-25 00:00:00</td>
+      <td style="text-align: left">I</td>
+      <td style="text-align: left">176165.55</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">1.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">50007.0</td>
+      <td style="text-align: left">801 Barnes</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">2016-12-27 00:00:00</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">2017-01-25 00:00:00</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">Garbage</td>
+      <td style="text-align: left">15.0</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">15.0</td>
+      <td style="text-align: left">2017-01-25 00:00:00</td>
+      <td style="text-align: left">I</td>
+      <td style="text-align: left">15.0</td>
+      <td style="text-align: left">UtilBill</td>
+      <td style="text-align: left">287</td>
+      <td style="text-align: left">10</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">2017-02-15 00:00:00</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">1.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">50008.0</td>
+      <td style="text-align: left">505 Valley Avenue</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">2016-12-27 00:00:00</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">2017-01-25 00:00:00</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">Garbage</td>
+      <td style="text-align: left">15.0</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">-12.0</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">3.0</td>
+      <td style="text-align: left">2017-01-25 00:00:00</td>
+      <td style="text-align: left">I</td>
+      <td style="text-align: left">15.0</td>
+      <td style="text-align: left">UtilBill</td>
+      <td style="text-align: left">288</td>
+      <td style="text-align: left">10</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">2017-02-15 00:00:00</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">1.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Almost 125,000 rows were returned. Next, I queried how many unique residences &amp; businesses were represented by this data.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT DISTINCT "Service Adr"
+FROM new_customer_history
+WHERE Useage &gt;=0
+ORDER BY "Service Adr";
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Service Adr</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">1167 Main Street</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1167 Main St.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1168 Main Street</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1170 E. Cook</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1170 E Cook</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>There were 441 records returned. However, some of the addresses are duplicated based on irregular data entry practices (“St.” vs “Street”, “E.” vs “E”, etc.). I’ll alter the table to normalize the data.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>UPDATE
+    new_customer_history
+SET
+    "Service Adr" = REPLACE(REPLACE(REPLACE("Service Adr",'.',''),"Street", "St"), "Avenue", "Ave");
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">SQL</th>
+      <th style="text-align: left">Message</th>
+      <th style="text-align: left">Duration (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">UPDATE     new_customer_history SET     “Service Adr” = REPLACE(REPLACE(REPLACE(“Service Adr”,’.’,’’),”Street”, “St”), “Avenue”, “Ave”);</td>
+      <td style="text-align: left">Affected rows: 124,958</td>
+      <td style="text-align: left">0.317254</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>It worked! After running the query again to get the number of distinct properties, it’s down to 404 unique addresses.</p>
+
+<p>In order to align with the client’s legacy billing system, I modified the date format for 2 columns.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT Route, "Service Adr", 
+    substr("Beginning Date", 6, 2) 
+	|| '/' 
+	|| substr("Beginning Date", 9,2)
+	|| '/' 
+	|| substr("Beginning Date", 1,4) AS "Beginning Date Reformatted", 
+    "Current Reading", 
+    substr("Current Date", 6, 2) 
+	|| '/' 
+	|| substr("Current Date", 9,2)
+	|| '/' 
+	|| substr("Current Date", 1,4) AS "Current Date Reformatted",
+    Useage, Amount
+FROM new_customer_history;
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Route</th>
+      <th style="text-align: left">Service Adr</th>
+      <th style="text-align: left">Beginning Date Reformatted</th>
+      <th style="text-align: left">Current Reading</th>
+      <th style="text-align: left">Current Date Reformatted</th>
+      <th style="text-align: left">Useage</th>
+      <th style="text-align: left">Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">193.0</td>
+      <td style="text-align: left">RR Mayfield</td>
+      <td style="text-align: left">12/23/2002</td>
+      <td style="text-align: left">47651000.0</td>
+      <td style="text-align: left">01/24/2003</td>
+      <td style="text-align: left">16623900.0</td>
+      <td style="text-align: left">94770.68</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">193.0</td>
+      <td style="text-align: left">RR Mayfield</td>
+      <td style="text-align: left">01/24/2003</td>
+      <td style="text-align: left">62270000.0</td>
+      <td style="text-align: left">02/24/2003</td>
+      <td style="text-align: left">14619000.0</td>
+      <td style="text-align: left">83342.75</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">193.0</td>
+      <td style="text-align: left">RR Mayfield</td>
+      <td style="text-align: left">02/24/2003</td>
+      <td style="text-align: left">76614000.0</td>
+      <td style="text-align: left">03/25/2003</td>
+      <td style="text-align: left">14344000.0</td>
+      <td style="text-align: left">81775.25</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">193.0</td>
+      <td style="text-align: left">RR Mayfield</td>
+      <td style="text-align: left">03/25/2003</td>
+      <td style="text-align: left">148755000.0</td>
+      <td style="text-align: left">07/28/2003</td>
+      <td style="text-align: left">72141000.0</td>
+      <td style="text-align: left">411218.15</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Next, I aggregated meter readings by year.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT "Service Adr", 
+    strftime("%Y", "Current Date") AS Year, 
+    Useage, 
+    SUM(Useage) AS "Yearly Useage"
+FROM new_customer_history
+WHERE Useage &gt;=0
+GROUP BY "Service Adr", Year
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Service Adr</th>
+      <th style="text-align: left">Year</th>
+      <th style="text-align: left">Useage</th>
+      <th style="text-align: left">Yearly Useage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">109 E Sherman</td>
+      <td style="text-align: left">2017</td>
+      <td style="text-align: left">2500.0</td>
+      <td style="text-align: left">22200.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">109 E Sherman</td>
+      <td style="text-align: left">2018</td>
+      <td style="text-align: left">200.0</td>
+      <td style="text-align: left">4400.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">109 E Sherman</td>
+      <td style="text-align: left">2019</td>
+      <td style="text-align: left">700.0</td>
+      <td style="text-align: left">28500.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">109 E Sherman</td>
+      <td style="text-align: left">2020</td>
+      <td style="text-align: left">0.0</td>
+      <td style="text-align: left">42000.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">109 E Sherman</td>
+      <td style="text-align: left">2021</td>
+      <td style="text-align: left">4000.0</td>
+      <td style="text-align: left">42000.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To visualize water usage over time for each property, I imported the results of this SQLite query into a Pandas DataFrame and wrote a function to graph the data using Matplotlib and Seaborn.</p>
+
+<p><a href="assets/png/graph1blur.png"><img src="/assets/png/graph1blur.png" alt="" /></a>
+<a href="assets/png/graph2blur.png"><img src="/assets/png/graph2blur.png" alt="" /></a>
+<a href="assets/png/graph3blur.png"><img src="/assets/png/graph3blur.png" alt="" /></a>
+<a href="assets/png/graph5blur.png"><img src="/assets/png/graph5blur.png" alt="" /></a></p>
+
+<p>These graphs made it easy to recognize aberant water usage patterns over the last year. Presently the city clerk is examining these graphs to see which trends can’t be explained by houses being vacated, a change in the number of residents, etc. To help with that, I appended a miscellaneous notes column from another table onto the main table.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ALTER TABLE new_customer_history ADD COLUMN Misc_Notes VARCHAR;
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>UPDATE new_customer_history
+SET Misc_Notes = "Msc 2"
+FROM Customer	
+WHERE Customer.Route = new_customer_history.Route;
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT Route, "Service Adr", "Useage", Misc_Notes
+FROM new_customer_history                   
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Route</th>
+      <th style="text-align: left">Service Adr</th>
+      <th style="text-align: left">Useage</th>
+      <th style="text-align: left">Misc_Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">234.0</td>
+      <td style="text-align: left">203 S Jefferson</td>
+      <td style="text-align: left">800.0</td>
+      <td style="text-align: left">to RSB Enterprises Inc</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">72.0</td>
+      <td style="text-align: left">204 S Jefferson</td>
+      <td style="text-align: left">1559200.0</td>
+      <td style="text-align: left">Old System Meter-Do not bill-see notes</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">234.0</td>
+      <td style="text-align: left">203 S Jefferson</td>
+      <td style="text-align: left">400.0</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">234.0</td>
+      <td style="text-align: left">203 S Jefferson</td>
+      <td style="text-align: left">(NULL)</td>
+      <td style="text-align: left">4 unit Apartment-owner pays-no Garbage</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Hopefully this will provide enough of a breadcrumb trail to deduce where the discrepancy  in water usage data stems from. If not, my next step will be to examine the invoice data against water meter readings. 💧💧💧</p>
+
+</div>
+
+<footer class="relative px-4 pt-4 pb-4">
+  
+  <!-- divider -->
+  <div class="relative my-8">
+    <div class="absolute inset-0 flex items-center" aria-hidden="true">
+      <div class="w-full border-t border-gray-200"></div>
+    </div>
+    <div class="relative flex justify-center ">
+      <span class="bg-white px-2 text-gray-200">
+        <i class="text-xs far fa-square"></i>
+      </span>
+    </div>
+  </div>
+
+  <!-- footer msg -->
+  <div class="flex flex-wrap items-center justify-center">
+    <div class="text-sm text-gray-300">
+      © <span id="get-current-year"></span>
+      
+      <a href="" class="!no-underline">
+        Powered by HTML, DNS, and 🐙
+      </a>
+      
+    </div>
+  </div>
+  </div>
+</footer>    
+  </div>
+</body>
+
+<script>
+  /* Function for getting the current year in the footer */
+  (function () {
+    if (document.getElementById("get-current-year")) {
+      document.getElementById(
+        "get-current-year"
+      ).innerHTML = new Date().getFullYear();
+    }
+  })();
+
+  /* Function for opening navbar on mobile */
+  function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+    /* Function for dropdowns */
+    function openDropdown(event, dropdownID) {
+      let element = event.target;
+      while (element.nodeName !== "A") {
+        element = element.parentNode;
+      }
+      document.getElementById(dropdownID).classList.toggle("hidden");
+      document.getElementById(dropdownID).classList.toggle("block");
+    }
+
+  /* Function for show/hide table of content */
+  function toggleTOC() {
+    var toc = document.getElementById('toc');
+        if (toc.style.display == "block"){ // if toc hidden, display it 
+            toc.style.display = "none";
+        }
+        else{ // if toc displayed, hidden it
+            toc.style.display = "block";
+        }
+    }
+</script>
+
+</html>
