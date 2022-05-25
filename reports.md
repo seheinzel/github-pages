@@ -10,5 +10,3 @@ permalink: reports
 [![](assets/png/Dashboard Faculty Wellness blurred.png)](assets/png/Dashboard Faculty Wellness blurred.png)
 
 [![](assets/png/Dashboard Resident Survey Screenshot.png)](assets/png/Dashboard Resident Survey Screenshot.png)
-
-[![](assets/png/GME Mission Contribution Dashboard.png)](assets/png/GME Mission Contribution Dashboard.png)
